@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
 body {
 background-color: lightsteelblue;
 
@@ -6,34 +9,42 @@ background-color: lightsteelblue;
 
 .parent {
   position: absolute;
-  top: 0;
   left: 10px;
+  top: 20px;
+  bottom: 50px;
+  font-family: 'Lobster', cursive;
+font-size: 60px;
+margin-top: 100px;
+
 }
 .image1 {
   position: absolute;
-  top: 0;
-  left: 300px;
+  top: 20;
+  bottom: 30px;
+  left: 200px;
  
   
 }
 .avatar {
   position: absolute;
-  top: 200px;
-  left: 300px;
+  top: 80px;
+  left: 1100px;
    width: 300px;
     display: block;
     box-sizing: border-box;
     background-color: #DDD;
     border: 15px solid #cfd8dc;
     z-index: 1;
+
 }
 
 nav {
 float: right;
-position: absolute; right: 350px; top: .5px;
+position: absolute; right: 100px; top: 170px; left: 1000px;
 background-color: white;
 width: 200px;
 height: 500px;
+outline-style: solid;
 
 }
 
@@ -41,3 +52,17 @@ a {
     text-decoration: none;
 
 }
+
+section {
+position:absolute; left: 310px; top: -20px;
+background-color: white;
+width: 945px;
+height: 150px;
+}
+
+h1 {
+font-family: 'Style Script', cursive;
+font-size: 40px;
+}
+
+
