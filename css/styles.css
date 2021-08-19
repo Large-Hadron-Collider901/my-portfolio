@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+
 body {
-background-color: lightsteelblue;
+  background-color: lightsteelblue;
 
 
 }
@@ -11,23 +16,24 @@ background-color: lightsteelblue;
   position: absolute;
   left: 10px;
   top: 20px;
-  bottom: 50px;
-  font-family: 'Lobster', cursive;
-font-size: 60px;
+  bottom: 10px;
+ font-family: 'Niconne', cursive;
+font-size: 70px;
 margin-top: 100px;
+
 
 }
 .image1 {
   position: absolute;
-  top: 20;
+  top: 130;
   bottom: 30px;
   left: 200px;
- 
+ outline-style: solid; outline-width: 10px; outline-color: palegreen;
   
 }
 .avatar {
   position: absolute;
-  top: 80px;
+  top: 110px;
   left: 1100px;
    width: 300px;
     display: block;
@@ -35,16 +41,16 @@ margin-top: 100px;
     background-color: #DDD;
     border: 15px solid #cfd8dc;
     z-index: 1;
-
+  outline-style: solid; outline-color: palegreen; outline-width: 5px;
 }
 
 nav {
 float: right;
-position: absolute; right: 100px; top: 170px; left: 1000px;
+position: absolute; right: 100px; top: 207px; left: 1000px;
 background-color: white;
 width: 200px;
 height: 500px;
-outline-style: solid;
+outline-style: solid; outline-color: palegreen; outline-width: 10px;
 
 }
 
