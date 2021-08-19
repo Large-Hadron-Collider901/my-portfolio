@@ -1,0 +1,43 @@
+body {
+background-color: lightsteelblue;
+
+
+}
+
+.parent {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+ 
+  
+}
+.avatar {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+   width: 300px;
+    display: block;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 15px solid #cfd8dc;
+    z-index: 1;
+}
+
+nav {
+float: right;
+position: absolute; right: 350px; top: .5px;
+background-color: white;
+width: 200px;
+height: 500px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
