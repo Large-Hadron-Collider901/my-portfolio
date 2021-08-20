@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body {
+position: absolute; right: 540px; top: 20px;
+text-align: center;
+background-color: whitesmoke;
+outline-style: solid; outline-width: 10px; outline-color: palegreen;
+background-color: paleturquoise;
+list-style-position: inside;
+} 
+
+h1 {
+font-family: 'Style Script', cursive;
+font-size: 80px;
+}
+
+article {
+width: 600px;
+height: 500px;
+background-color: papayawhip;
+
+}
